@@ -1,0 +1,32 @@
+/* .body-bg{
+    background-image: url(../Code101/img/bg-body.jpg);
+    height: 100%;  
+} */
+.nav-header-bg-color{
+    background-color: black;
+    width: 100%;
+    height: 40%;
+    display: block;
+    overflow: hidden;
+    display: block;
+    margin: 1px;
+    border: 0px;
+    padding: 0px;
+}
+
+.text-nav-color{
+    color:white;
+    font-size: 15px;
+    /* background-color: cadetblue; */
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    float: left;
+    padding: 5px;
+    font-family: Verdana,sans-serif;
+}
+
+.img-css{
+    width: 100%;
+    padding: 0px;
+}
