@@ -30,3 +30,11 @@
     width: 100%;
     padding: 0px;
 }
+
+.head1{
+    text-align: center;
+}
+.pr1{
+    width: 500px;
+    padding: 0 0 0 40%;
+}
