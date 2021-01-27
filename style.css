@@ -41,3 +41,12 @@
 .tab1{
     text-align: center;
 }
+
+.div-color{
+    background-color: darkgray;
+    width: 60%;
+}
+
+.div2Color{
+    width: 40%;
+}
