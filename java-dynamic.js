@@ -1,3 +1,4 @@
+confirm("Do you want to buy??");
 function cdNumber(){
     var userNumber = prompt("Pleas type you number?!");
     if (userNumber > 4 && userNumber < 8){
