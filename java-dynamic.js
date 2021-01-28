@@ -26,31 +26,11 @@ function cdNumber() {
         confirm("Sorry you will NOT get any Discount!! :(");
     }
 
-    
-
-    
-
-    var result = [];
-    // var mainElm = document.getElementById('imgRep');
+    var result_imgs = '';
     for (var j = 1; j <= userNumber; j++) {
-        // document.innerHTML=("<img src=./cd.gif />");
-        // document.write(j);
-        // var img  = document.createElement('img');
-        // img.src = "./cd.gif"
-        // var p = document.createElement('p');
-        // p.textContent = j;
-        // mainElm.appendChild(img);
-        // mainElm.appendChild(p);
-
-        document.getElementById('pic').src ="./cd.gif";
-        document.getElementById('imgNum').innerHTML = (j);
-        // document.getElementById('pic').innerHTML ("<br>");
-        // result = result + "<br>"+"<img src=./cd.gif />";
-        //  (document.getElementById('pic').src="cd.gif") + "</br>"+ (document.getElementById('imgNum').innerHTML = (j)) ;
-        // result + "<img src=./cd.gif />"
+        result_imgs = result_imgs + '<img src ="./cd.gif" width="100px" height="100px">' + '<p>' + j + '</p>';
     }
-    // document.write(result);
-    // document.getElementById('imgNum').innerHTML = (j);
+    document.getElementById('img_container').innerHTML = result_imgs;
 
 }
 
