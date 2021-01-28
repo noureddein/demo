@@ -1,4 +1,10 @@
-confirm("Do you want to buy??");
+var useransr = prompt("Do you want to buy if YES type Y otheriwse type N??");
+while (useransr !== 'y') {
+    useransr = prompt("Do you want to buy if YES type Y otheriwse type N??");
+
+}
+alert('Thank you to coming here! :)');
+
 function cdNumber() {
     var userNumber = prompt("Pleas type you number?!");
     if (userNumber > 4 && userNumber < 8) {
@@ -20,7 +26,34 @@ function cdNumber() {
         confirm("Sorry you will NOT get any Discount!! :(");
     }
 
+    
+
+    
+
+    var result = [];
+    // var mainElm = document.getElementById('imgRep');
+    for (var j = 1; j <= userNumber; j++) {
+        // document.innerHTML=("<img src=./cd.gif />");
+        // document.write(j);
+        // var img  = document.createElement('img');
+        // img.src = "./cd.gif"
+        // var p = document.createElement('p');
+        // p.textContent = j;
+        // mainElm.appendChild(img);
+        // mainElm.appendChild(p);
+
+        document.getElementById('pic').src ="./cd.gif";
+        document.getElementById('imgNum').innerHTML = (j);
+        // document.getElementById('pic').innerHTML ("<br>");
+        // result = result + "<br>"+"<img src=./cd.gif />";
+        //  (document.getElementById('pic').src="cd.gif") + "</br>"+ (document.getElementById('imgNum').innerHTML = (j)) ;
+        // result + "<img src=./cd.gif />"
+    }
+    // document.write(result);
+    // document.getElementById('imgNum').innerHTML = (j);
+
 }
+
 function myFunction() {
     var color_name = prompt("type your color");
     document.body.style.background = color_name;
@@ -37,14 +70,16 @@ img[2] = 'img3.jpg';
 
 // Change Imgs Function 
 function changeImg() {
-    document.getElementById("imgSlide").src =img [i];
+    document.getElementById("imgSlide").src = img[i];
     // document.slide.src = img[i];
-    if (i < img.length - 1){
+    if (i < img.length - 1) {
         i++;
-    }else{
+    } else {
         i = 0;
     }
-    setTimeout("changeImg()",time)
+    setTimeout("changeImg()", time)
 }
 
 window.onload = changeImg;
+
+

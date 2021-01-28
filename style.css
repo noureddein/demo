@@ -12,8 +12,7 @@
     height: 40%;
     display: block;
     overflow: hidden;
-    display: block;
-    margin: 1px;
+    margin: 0px;
     border: 0px;
     padding: 0px;
 }
@@ -49,6 +48,8 @@
 .div-color{
     background-color: darkgray;
     width: 60%;
+    display: flex;
+    flex-direction: row;
 }
 
 .div2Color{
@@ -90,4 +91,11 @@
 }
 .main-menu ul li:hover a{
     color: red;
+}
+
+.imgRep{
+    width: 60%;
+    background-color: brown; 
+    
+
 }
