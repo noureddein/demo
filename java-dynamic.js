@@ -26,3 +26,25 @@ function myFunction() {
     document.body.style.background = color_name;
 }
 
+var i = 0; //starting point
+var img = [];
+var time = 3000; // time in ms
+
+// Image list
+img[0] = 'img1.jpg';
+img[1] = 'img2.jpg';
+img[2] = 'img3.jpg';
+
+// Change Imgs Function 
+function changeImg() {
+    document.getElementById("imgSlide").src =img [i];
+    // document.slide.src = img[i];
+    if (i < img.length - 1){
+        i++;
+    }else{
+        i = 0;
+    }
+    setTimeout("changeImg()",time)
+}
+
+window.onload = changeImg;

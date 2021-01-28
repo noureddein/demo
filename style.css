@@ -1,7 +1,11 @@
-/* .body-bg{
-    background-image: url(../Code101/img/bg-body.jpg);
-    height: 100%;  
-} */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+
+
+.body-bg{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 .nav-header-bg-color{
     background-color: black;
     width: 100%;
@@ -26,7 +30,7 @@
     font-family: Verdana,sans-serif;
 }
 
-.img-css{
+.name{
     width: 100%;
     padding: 0px;
 }
@@ -49,4 +53,41 @@
 
 .div2Color{
     width: 40%;
+}
+
+
+.main-menu{
+    width: 100%;
+    background-color: #000000cc;
+    position: sticky;
+    top: 0;
+}
+
+.main-menu ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0px 5px 10px 2px #00000059;
+}
+
+.main-menu ul li{
+    padding: 1rem 2rem;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.main-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    font-family: 'Cairo', sans-serif;
+}
+.main-menu ul li:hover{
+    background-color: #fff;
+}
+.main-menu ul li:hover a{
+    color: red;
 }
