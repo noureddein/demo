@@ -95,7 +95,52 @@
 
 .imgRep{
     width: 60%;
-    background-color: brown; 
+    background-color: orange; 
     
 
+}
+.div-stars{
+    width: 400px; 
+    height: 450px;
+    background-color: #2117FE;
+    margin: 10px;
+    border-style: double ;
+    border-color: black;
+    border-width: 5px;
+    color: silver;
+}
+
+#h3-pad{
+    padding: 10px;
+
+}
+
+#div-colors{
+    margin: 0 0 0 30px;
+
+}
+.box-size{
+    height: 30px;
+    width: 200px;
+    border-style: solid ;
+    border-width: 2px;
+    border-color: gray;
+}
+.box-color1{
+background-color: #1543E6;
+}
+
+.box-color2{
+    background-color:rgb(204, 0, 102);
+}
+
+.box-color3{
+    background-color:rgb(51, 204, 51);
+}
+.lab06b{
+    margin: 0 0 0 -20px;
+    padding: 0;
+}
+.box-color4{
+    background-color: rgba(20, 53, 20, 0.5);
 }

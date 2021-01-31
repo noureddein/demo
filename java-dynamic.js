@@ -1,9 +1,9 @@
-var useransr = prompt("Do you want to buy if YES type Y otheriwse type N??");
-while (useransr !== 'y') {
-    useransr = prompt("Do you want to buy if YES type Y otheriwse type N??");
+// var useransr = prompt("Do you want to buy if YES type Y otheriwse type N??");
+// while (useransr !== 'y') {
+//     useransr = prompt("Do you want to buy if YES type Y otheriwse type N??");
 
-}
-alert('Thank you to coming here! :)');
+// }
+// alert('Thank you to coming here! :)');
 
 function cdNumber() {
     var userNumber = prompt("Pleas type you number?!");
@@ -61,5 +61,20 @@ function changeImg() {
 }
 
 window.onload = changeImg;
+
+function oppStair() {
+    var starsNum=prompt("How many stars do you want??")
+    var result = '';
+    for (var j = 1; j <= starsNum; j++) {
+      document.write("<br/>");
+    
+
+      for (var i = starsNum; i >= j; i--) {
+        document.write("*");
+        
+      }
+    }
+    document.write('</br>' +'You Enterd ' + starsNum + ' stars')
+  }
 
 
