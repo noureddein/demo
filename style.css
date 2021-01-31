@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
-
-
-.body-bg{
+.body-bg {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
-.nav-header-bg-color{
+
+.nav-header-bg-color {
     background-color: black;
     width: 100%;
     height: 40%;
@@ -17,8 +16,8 @@
     padding: 0px;
 }
 
-.text-nav-color{
-    color:white;
+.text-nav-color {
+    color: white;
     font-size: 15px;
     /* background-color: cadetblue; */
     width: 70px;
@@ -26,45 +25,46 @@
     text-align: center;
     float: left;
     padding: 5px;
-    font-family: Verdana,sans-serif;
+    font-family: Verdana, sans-serif;
 }
 
-.name{
+.name {
     width: 100%;
     padding: 0px;
 }
 
-.head1{
-    text-align: center;
-}
-.pr1{
-    width: 500px;
-    padding: 0 0 0 40%;
-}
-.tab1{
+.head1 {
     text-align: center;
 }
 
-.div-color{
+.pr1 {
+    width: 500px;
+    padding: 0 0 0 40%;
+}
+
+.tab1 {
+    text-align: center;
+}
+
+.div-color {
     background-color: darkgray;
     width: 100%;
     display: flex;
     flex-direction: row;
 }
 
-.div2Color{
+.div2Color {
     width: 40%;
 }
 
-
-.main-menu{
+.main-menu {
     width: 100%;
     background-color: #000000cc;
     position: sticky;
     top: 0;
 }
 
-.main-menu ul{
+.main-menu ul {
     list-style: none;
     display: flex;
     padding: 0;
@@ -72,13 +72,13 @@
     box-shadow: 0px 5px 10px 2px #00000059;
 }
 
-.main-menu ul li{
+.main-menu ul li {
     padding: 1rem 2rem;
     transition: all 0.3s;
     cursor: pointer;
 }
 
-.main-menu ul li a{
+.main-menu ul li a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
@@ -86,61 +86,64 @@
     transition: all 0.3s;
     font-family: 'Cairo', sans-serif;
 }
-.main-menu ul li:hover{
+
+.main-menu ul li:hover {
     background-color: #fff;
 }
-.main-menu ul li:hover a{
+
+.main-menu ul li:hover a {
     color: red;
 }
 
-.imgRep{
+.imgRep {
     width: 60%;
-    background-color: orange; 
-    
-
+    background-color: orange;
 }
-.div-stars{
-    width: 400px; 
+
+.div-stars {
+    width: 400px;
     height: 450px;
     background-color: #2117FE;
     margin: 10px;
-    border-style: double ;
+    border-style: double;
     border-color: black;
     border-width: 5px;
     color: silver;
 }
 
-#h3-pad{
+#h3-pad {
     padding: 10px;
-
 }
 
-#div-colors{
+#div-colors {
     margin: 0 0 0 30px;
-
 }
-.box-size{
+
+.box-size {
     height: 30px;
     width: 200px;
-    border-style: solid ;
+    border-style: solid;
     border-width: 2px;
     border-color: gray;
 }
-.box-color1{
-background-color: #1543E6;
+
+.box-color1 {
+    background-color: #1543E6;
 }
 
-.box-color2{
-    background-color:rgb(204, 0, 102);
+.box-color2 {
+    background-color: rgb(204, 0, 102);
 }
 
-.box-color3{
-    background-color:rgb(51, 204, 51);
+.box-color3 {
+    background-color: rgb(51, 204, 51);
 }
-.lab06b{
+
+.lab06b {
     margin: 0 0 0 -20px;
     padding: 0;
 }
-.box-color4{
+
+.box-color4 {
     background-color: rgba(20, 53, 20, 0.5);
 }

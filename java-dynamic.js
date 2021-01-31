@@ -17,12 +17,10 @@ function cdNumber() {
         document.getElementById("results").innerHTML = ((0.35 * 1.99) * userNumber);
         document.getElementById("results2").innerHTML = ("You Got 2 CDs FREE! :) and Your Discount is 35%");
 
-    }
-    else if (userNumber == 10) {
+    } else if (userNumber == 10) {
         document.getElementById("results").innerHTML = ((0.35 * 1.99) * userNumber);
         document.getElementById("results2").innerHTML = ("Your Discount is 30%");
-    }
-    else {
+    } else {
         confirm("Sorry you will NOT get any Discount!! :(");
     }
 
@@ -63,18 +61,16 @@ function changeImg() {
 window.onload = changeImg;
 
 function oppStair() {
-    var starsNum=prompt("How many stars do you want??")
+    var starsNum = prompt("How many stars do you want??")
     var result = '';
     for (var j = 1; j <= starsNum; j++) {
-      document.write("<br/>");
-    
+        document.write("<br/>");
 
-      for (var i = starsNum; i >= j; i--) {
-        document.write("*");
-        
-      }
+
+        for (var i = starsNum; i >= j; i--) {
+            document.write("*");
+
+        }
     }
-    document.write('</br>' +'You Enterd ' + starsNum + ' stars')
-  }
-
-
+    document.write('</br>' + 'You Enterd ' + starsNum + ' stars')
+}
