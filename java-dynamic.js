@@ -1,9 +1,9 @@
-// var useransr = prompt("Do you want to buy if YES type Y otheriwse type N??");
-// while (useransr !== 'y') {
-//     useransr = prompt("Do you want to buy if YES type Y otheriwse type N??");
+var useransr = prompt("Do you want to buy if YES type Y otheriwse type N??");
+while (useransr !== 'y') {
+    useransr = prompt("Do you want to buy if YES type Y otheriwse type N??");
 
-// }
-// alert('Thank you to coming here! :)');
+}
+alert('Thank you to coming here! :)');
 
 function cdNumber() {
     var userNumber = prompt("Pleas type you number?!");
